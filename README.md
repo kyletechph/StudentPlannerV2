@@ -23,6 +23,7 @@ Scan the QR code with **Expo Go** (iOS / Android), or press `w` for a browser pr
 
 ## Scripts
 
+
 | Command | What it does |
 | --- | --- |
 | `npm start` | Start the Expo dev server |
