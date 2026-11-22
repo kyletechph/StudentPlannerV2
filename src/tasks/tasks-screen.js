@@ -20,6 +20,7 @@ import {
 } from '@/shared/app';
 import { ClipboardEmptyIcon, SearchIcon } from '@/shared/icon';
 import { colors, styles } from '@/shared/styles';
+import { QuoteCard } from './quote-card';
 
 export function TasksScreen() {
   const { tasks } = useApp();
@@ -51,6 +52,7 @@ export function TasksScreen() {
         keyboardShouldPersistTaps="handled"
         ListHeaderComponent={
           <>
+            <QuoteCard />
             <View style={styles.dateRow}>
               <View>
                 <Text style={styles.dateLabel}>
